@@ -13,7 +13,7 @@
 [package]
 edition = "2018"
 name = "der-oid-macro"
-version = "0.4.0"
+version = "0.5.0"
 authors = ["Pierre Chifflier <chifflier@wzdftpd.net>", "Jannik Schürg <schuerg@ins.uni-bonn.de>"]
 description = "Macro to encode DER oids at compile time"
 homepage = "https://github.com/rusticata/der-parser"
@@ -22,9 +22,6 @@ repository = "https://github.com/rusticata/der-parser.git"
 
 [lib]
 proc-macro = true
-[dependencies.nom]
-version = "6.0"
-
 [dependencies.num-bigint]
 version = "0.4"
 
